@@ -1,0 +1,16 @@
+[package]
+name = "todo-app"
+version = "0.1.0"
+edition = "2021"
+authors = ["Stepanov Denis <stepanov.d.m@yandex.ru>"]
+description = "Todo app on Rust"
+license = "Apache-2.0"
+repository = "https://github.com/stepanov-denis/todo-app/"
+keywords = ["todo"]
+documentation = "https://docs.rs/todo-app"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0.60"
