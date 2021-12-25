@@ -39,9 +39,12 @@ impl Todo {
         }
     }
 
-    fn complete(&mut self, key: &String) -> Option<()> {
+    fn complete(&mut self, key: &str) -> Option<()> {
         match self.map.get_mut(key) {
-            Some(v) => Some(*v = false),
+            Some(v) => {
+                *v = false;
+                Some(())
+            }
             None => None,
         }
     }
