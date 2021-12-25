@@ -66,7 +66,7 @@ fn main() {
             Some(_) => match todo.save() {
                 Ok(_) => println!("todo saved"),
                 Err(why) => println!("An error occurred: {}", why),
-            }
+            },
         }
     }
 }
